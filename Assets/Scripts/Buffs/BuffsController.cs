@@ -56,7 +56,7 @@
 				return;
 			
 			EBuff buff			= GetRandomBuff();
-			int stepCount		= UnityEngine.Random.Range( 4, 8 );
+			int stepCount		= UnityEngine.Random.Range( 1, 4 );
 			
 			BuffData data		= new BuffData
 			{
